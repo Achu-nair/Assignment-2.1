@@ -1,26 +1,30 @@
 # Assignment-2.1
 
 1.What are the different methods to call a function in R?
-answer: 
-            #buitl-in function can be called without defining them first
+answer:
+a.
+            #built-in function can be called without defining them first
             eg: seq(), mean(), max()
             #user defined functions need to be created first.
-          eg: new.function()<-- function(a){r <-- a+1 }
-          and then called eg: new.function(6)
-
-          #Call the function without supplying an argument.
+            eg: 
+            new.function()<-- function(a){
+            r <-- a+1
+            }
+            #call the function
+            new.function(6)
+b.
+           #Call the function without supplying an argument.
           eg: new.functiom()
-          #Calling a Function with Argument Values (by position and by name)
+c.
           new.function <- function(a,b) {
              result <- a * b
              print(result)
              }
           #call the function by position of arguments
           new.function(5,3)
-
           # Call the function by names of the arguments.
           new.function(a = 11, b = 5)
-
+d
           #Calling a Function with Default Argument
           eg:
           # Create a function with arguments.
