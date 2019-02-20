@@ -39,6 +39,12 @@ d
 ANSWER: TRUE
 
 3.a insights driven from descriptive analysis isnt meaningful. FALSE -helps understand past occurences
+
+
 3.b the number of values in each element in a list should be equal.- FALSE
+
+
 3.c the datasets are not stored in the memory of the computer using r. TRUE
+
+
 3.d data frames and matrices are 2 dimnensional however arrays are multi-dimensionai. TRUE
